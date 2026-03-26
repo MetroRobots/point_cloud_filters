@@ -1,0 +1,8 @@
+cloud_filter_chain:
+  ros__parameters:
+    filter1:
+      name: ring_filter
+      type: three_d_laser_pc_filter/RingFilter
+      params:
+        min_angle_deg: 15.0
+        max_angle_deg: 165.0

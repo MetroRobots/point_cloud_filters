@@ -1,0 +1,5 @@
+<library path="the_filters">
+  <class name="three_d_laser_pc_filter/RingFilter" type="three_d_laser_pc_filter::RingFilter" base_class_type="filters::FilterBase&lt;sensor_msgs::msg::PointCloud2&gt;">
+    <description>Filters shadows based on adjacent points in concentric rings</description>
+  </class>
+</library>
