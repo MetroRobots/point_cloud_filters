@@ -1,0 +1,8 @@
+cloud_filter_chain:
+  ros__parameters:
+    publish_frequency: 1.0
+    filter1:
+      name: voxel_filter
+      type: pcl_filters/VoxelFilter
+      params:
+        voxel_size: 0.05
