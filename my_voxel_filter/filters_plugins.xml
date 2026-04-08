@@ -1,0 +1,5 @@
+<library path="the_filters">
+  <class name="my_voxel_filter/MyVoxelFilter" type="my_voxel_filter::MyVoxelFilter" base_class_type="filters::FilterBase&lt;sensor_msgs::msg::PointCloud2&gt;">
+    <description>Reimplementation of pcl::VoxelFilter</description>
+  </class>
+</library>
